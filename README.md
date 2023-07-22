@@ -5,4 +5,5 @@ I really like learning by doing.
 This Challenge made me realize I need to work more on functions and creating iteration loops. 
 I understand the DOM structure and how to navigate it a LOT better after this project.
 If I borrowed code it was from the activities in class.
+https://jacslimob.github.io/Work-Day-Scheduler/
 ![Alt text](assets/img/project.png)
