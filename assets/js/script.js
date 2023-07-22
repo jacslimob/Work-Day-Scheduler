@@ -1,5 +1,5 @@
 // All code wrapped in function to wait for window to load
-$( document ).ready(function () {
+//$( document ).ready(function () {
   // All my various variables
   var timeDisplayEl = $('#currentDay');
   var hour9 = document.getElementById('hour-9');
@@ -113,7 +113,7 @@ $( document ).ready(function () {
   function checkHour9() {
     if (currentHour > 9) {
       hour9.classList.add('past');
-    } else if (currentHour === 9) {
+    } else if (currentHour === '9') {
       hour9.classList.add('present');
     } else {
       hour9.classList.add('future');
@@ -123,7 +123,7 @@ $( document ).ready(function () {
   function checkHour10() {
     if (currentHour > 10) {
       hour10.classList.add('past');
-    } else if (currentHour === 10) {
+    } else if (currentHour === '10') {
       hour10.classList.add('present');
     } else {
       hour10.classList.add('future');
@@ -133,7 +133,7 @@ $( document ).ready(function () {
   function checkHour11() {
     if (currentHour > 11) {
       hour11.classList.add('past');
-    } else if (currentHour === 11) {
+    } else if (currentHour === '11') {
       hour11.classList.add('present');
     } else {
       hour11.classList.add('future');
@@ -143,7 +143,7 @@ $( document ).ready(function () {
   function checkHour12() {
     if (currentHour > 12) {
       hour12.classList.add('past');
-    } else if (currentHour === 12) {
+    } else if (currentHour === '12') {
       hour12.classList.add('present');
     } else {
       hour12.classList.add('future');
@@ -153,7 +153,7 @@ $( document ).ready(function () {
   function checkHour1() {
     if (currentHour > 13) {
       hour13.classList.add('past');
-    } else if (currentHour === 13) {
+    } else if (currentHour === '13') {
       hour13.classList.add('present');
     } else {
       hour13.classList.add('future');
@@ -163,7 +163,7 @@ $( document ).ready(function () {
   function checkHour2() {
     if (currentHour > 14) {
       hour14.classList.add('past');
-    } else if (currentHour === 14) {
+    } else if (currentHour === '14') {
       hour14.classList.add('present');
     } else {
       hour14.classList.add('future');
@@ -173,7 +173,7 @@ $( document ).ready(function () {
   function checkHour3() {
     if (currentHour > 15) {
       hour15.classList.add('past');
-    } else if (currentHour === 15) {
+    } else if (currentHour === '15') {
       hour15.classList.add('present');
     } else {
       hour15.classList.add('future');
@@ -183,7 +183,7 @@ $( document ).ready(function () {
   function checkHour4() {
     if (currentHour > 16) {
       hour16.classList.add('past');
-    } else if (currentHour === 16) {
+    } else if (currentHour === '16') {
       hour16.classList.add('present');
     } else {
       hour16.classList.add('future');
@@ -194,7 +194,7 @@ $( document ).ready(function () {
   function checkHour5() {
     if (currentHour > 17) {
       hour17.classList.add('past');
-    } else if (currentHour === 17) {
+    } else if (currentHour === '17') {
       hour17.classList.add('present');
     } else {
       hour17.classList.add('future');
@@ -235,4 +235,4 @@ $( document ).ready(function () {
   storedInput();
   displayTime();
   setInterval(displayTime, 1000);
-});
+//});
