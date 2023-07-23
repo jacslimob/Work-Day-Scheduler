@@ -1,5 +1,5 @@
 // All code wrapped in function to wait for window to load
-//$( document ).ready(function () {
+$( document ).ready(function () {
   // All my various variables
   var timeDisplayEl = $('#currentDay');
   var hour9 = document.getElementById('hour-9');
@@ -235,4 +235,4 @@
   storedInput();
   displayTime();
   setInterval(displayTime, 1000);
-//});
+});
